@@ -1,7 +1,45 @@
+nav {
+    background-color: rgb(163, 109, 44);
+    text-align: center;
+    padding: 10pt;
+}
+
+a {
+    color: white;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    }
+
 h1 {
     font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    font-weight: 900;
 }
 
 body {
     font-family: 'Manjari', sans-serif;
+}
+
+main{
+    background-color: bisque;
+    margin: 50pt;
+    padding: 20pt;
+    border-radius: 10pt;
+}
+
+div.column {
+    text-align: center;
+}
+
+img.images {
+    display: inline-block;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: rgb(163, 109, 44);
+    color: white;
+    text-align: center;
+    padding: 3pt;
 }
