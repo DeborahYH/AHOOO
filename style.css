@@ -1,6 +1,7 @@
 nav {
     background-color: rgb(163, 109, 44);
     text-align: center;
+    font-size: 1.5em;
     padding: 10pt;
 }
 
@@ -10,14 +11,19 @@ a {
     padding-right: 10pt;
     }
 
+
 h1 {
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Montserrat';
+    font-size: 3em;
+    font-weight: bold;    
     text-align: center;
-    font-weight: 900;
+    margin-top: 0pt;
+    margin-bottom: 15pt;
 }
 
 body {
     font-family: 'Manjari', sans-serif;
+    font-size: 1.2em;
 }
 
 main{
@@ -35,6 +41,10 @@ img.images {
     display: inline-block;
     margin-left: auto;
     margin-left: auto;
+}
+
+figcaption {
+    font-size: 0.8em;
 }
 
 footer {
