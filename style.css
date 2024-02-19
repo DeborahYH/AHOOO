@@ -1,21 +1,45 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 nav {
     display: block;
-    background-color: rgb(163, 109, 44);
+    background-color: rgb(185, 132, 68);
     text-align: center;
     font-size: 1.5em;
+
     padding: 10pt;
 }
 
-a {
+nav ul {
+    margin: 0pt;
+    padding: 0pt;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
     color: white;
     padding-left: 10pt;
     padding-right: 10pt;
-    }
+    text-decoration: none;
+}
+
+nav li :hover {
+    color: rgb(49, 29, 4);
+    text-decoration: underline;
+}
 
 h1 {
     font-family: 'Montserrat';
     font-size: 3em;
-    font-weight: bold;    
+    font-weight: bold;
+    text-decoration: underline;
     text-align: center;
     margin-top: 0pt;
     margin-bottom: 15pt;
@@ -24,10 +48,11 @@ h1 {
 body {
     font-family: 'Manjari', sans-serif;
     font-size: 1.2em;
+    margin: 0px
 }
 
-main{
-    background-color: bisque;
+main {
+    background-color: rgb(255, 240, 221);
     margin: 50pt;
     padding: 20pt;
     border-radius: 10pt;
@@ -36,16 +61,16 @@ main{
 .row {
     display: flex;
 }
-  
+
 .column {
     flex: 50%;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
-    margin: 20pt;
+    margin: 50pt;
 }
 
 .column a {
-    color:rgb(59, 33, 0);
+    color: rgb(59, 33, 0);
     font-size: 1.2em;
 }
 
