@@ -3,19 +3,26 @@
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 227, 215);
+
+}
+
+header img {
+    height: 10%;
+}
 
 nav {
     display: block;
-    background-color: rgb(185, 132, 68);
-    text-align: center;
+    text-align: justify;
     font-size: 1.5em;
-
-    padding: 10pt;
+    padding: 3pt;
 }
 
 nav ul {
-    margin: 0pt;
-    padding: 0pt;
+    margin: 2pt;
     list-style: none;
 }
 
@@ -24,9 +31,11 @@ nav li {
 }
 
 nav a {
-    color: white;
-    padding-left: 10pt;
-    padding-right: 10pt;
+    color: rgb(2, 2, 2);
+    padding-left: 8pt;
+    padding-right: 8pt;
+    font-family: 'Montserrat';
+    font-size: 0.8em;
     text-decoration: none;
 }
 
