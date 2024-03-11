@@ -4,33 +4,22 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.container-header {
+.header {
     display: flex;
     max-width: 100%;
     margin: 0 auto;
+    padding-left: 70px;
     align-items: center;
     justify-content: center;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(230, 227, 215);
-    padding: 8px;
-}
-
 .logo {
-    width: 3%;
+    width: 10%;
+    padding-top: 5px;
 }
-
 
 .menu {
-    width: 97%;
+    width: 90%;
 }
 
 .menu nav a {
@@ -46,27 +35,52 @@ header {
     text-decoration: underline;
 }
 
-h1 {
+main {
+    background-color: rgb(255, 240, 221);
+    border-radius: 30pt;
+}
+
+.intro-box {
+    background-image: url("/imagens/background-forest.jpg");
+    background-color: rgb(44, 94, 71);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.intro-text {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+}
+
+.intro-content {
     font-family: 'Montserrat';
-    font-size: 3em;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
+    color: rgb(3, 41, 22);
+}
+
+.intro-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-family: 'Montserrat';
+    font-size: 2.5em;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+    color: rgb(3, 41, 22);
     margin-top: 0pt;
-    margin-bottom: 15pt;
-}
-
-body {
-    font-family: 'Manjari', sans-serif;
-    font-size: 1.2em;
-    margin: 0px
-}
-
-main {
-    background-color: rgb(255, 240, 221);
-    margin: 50pt;
-    padding: 20pt;
-    border-radius: 10pt;
+    margin-bottom: 10pt;
 }
 
 .row {
