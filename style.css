@@ -36,8 +36,7 @@
 }
 
 main {
-    background-color: rgb(255, 240, 221);
-    border-radius: 30pt;
+    background-color: rgb(233, 231, 223);
 }
 
 .intro-box {
@@ -81,6 +80,66 @@ main {
     color: rgb(3, 41, 22);
     margin-top: 0pt;
     margin-bottom: 10pt;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+    width: 300px;
+    height: 640px;
+    margin: 50px;
+    border-radius: 150px 150px 10px 10px;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.card-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.pic-1 {
+    background-image: url("/imagens/buffalo.png");
+}
+
+.pic-2 {
+    background-image: url("/imagens/deer.png");
+}
+
+.card h2 {
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card p {
+    padding: 5px 15px;
+    color: rgb(3, 41, 22);
+}
+
+.card a {
+    background-color: #c3d3bc;
+    padding: 8px;
+    margin: 20px 80px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(3, 41, 22);
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
 }
 
 .row {
