@@ -166,9 +166,59 @@ ol li {
     font-size: 0.7em;
 }
 
+section {
+    padding: 10px;
+}
+
 footer {
-    background-color: rgb(163, 109, 44);
-    color: white;
+    background-color: #838f7d;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+}
+
+.footer-logo {
+    margin: 20px 10px 10px 30px;
+}
+
+.footer-description {
+    flex: 1;
+    font-size: 1em;
+    text-align: justify;
+    color: #2b291c;
+    margin: 15px 20px 10px 20px;
+}
+
+.footer-contacts {
+    flex: 1;
+    line-height: 1.5em;
+    margin: 15px 20px 10px 20px;
+    color: #2b291c;
+}
+
+.footer-contacts a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #2b291c;
+}
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+
+#divider {
+    height: 110px;
+    margin: 15px 20px 10px 20px;
+}
+
+.footer-bottom {
+    background-color: #494738;
     text-align: center;
-    padding: 3pt;
+    color: #eeeeee;
+    font-size: 0.8em;
+    padding: 8px;
 }
