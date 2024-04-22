@@ -1,3 +1,5 @@
+/* SITE BASE */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -36,9 +38,66 @@
 }
 
 main {
-    background-color: rgb(233, 231, 223);
+    background-color: rgb(243, 242, 239);
+    margin: 0px;
+    padding: 0px;
 }
 
+footer {
+    background-color: #93a38b;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+}
+
+.footer-logo {
+    margin: 20px 10px 10px 30px;
+}
+
+.footer-description {
+    flex: 1;
+    font-size: 1em;
+    text-align: justify;
+    color: #2b291c;
+    margin: 15px 20px 10px 20px;
+}
+
+.footer-contacts {
+    flex: 1;
+    line-height: 1.5em;
+    margin: 15px 20px 10px 20px;
+    color: #2b291c;
+}
+
+.footer-contacts a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #2b291c;
+}
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+
+#divider {
+    height: 110px;
+    margin: 15px 20px 10px 20px;
+}
+
+.footer-bottom {
+    background-color: #494738;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 0.8em;
+    padding: 8px;
+}
+
+
+/* HOME */
 .intro-box {
     background-image: url("/imagens/background-forest.jpg");
     background-color: rgb(44, 94, 71);
@@ -150,7 +209,7 @@ main {
     flex: 50%;
     padding: 20px;
     text-align: center;
-    margin: 50pt;
+    margin: 10pt;
 }
 
 .column a {
@@ -162,63 +221,64 @@ figcaption {
     font-size: 0.8em;
 }
 
+
+/* CONTENT PAGES */
+
+#top-horns {
+    display: flex;
+    background-size: cover;
+    background-image: linear-gradient(180deg, transparent, rgba(243, 242, 239, 1)), url("imagens/background-horns.jpg");
+    height: 70vh;
+}
+
+.intro-text {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+}
+
+.title-info {
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+    text-align: center;
+    margin: 20px;
+}
+
+.title-info h1 {
+    text-decoration: underline;
+}
+
+section.content {
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    max-width: 80%;
+    margin: 0px 0px 20px 170px;
+    text-align: justify;
+}
+
+h1.title-content {
+    padding-top: 20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.row {
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+}
+
 ol li {
     font-size: 0.7em;
 }
 
-section {
-    padding: 10px;
-}
-
-footer {
-    background-color: #838f7d;
+.references {
     font-family: 'Montserrat';
-    text-align: left;
-}
-
-.footer-content {
-    display: flex;
-    width: 100%;
-}
-
-.footer-logo {
-    margin: 20px 10px 10px 30px;
-}
-
-.footer-description {
-    flex: 1;
-    font-size: 1em;
+    max-width: 80%;
+    margin: 20px 0px 2px 170px;
+    padding-bottom: 20px;
     text-align: justify;
-    color: #2b291c;
-    margin: 15px 20px 10px 20px;
 }
 
-.footer-contacts {
-    flex: 1;
-    line-height: 1.5em;
-    margin: 15px 20px 10px 20px;
-    color: #2b291c;
-}
 
-.footer-contacts a {
-    font-size: 1em;
-    text-decoration: none;
-    color: #2b291c;
-}
-
-.footer-contacts a:hover {
-    text-decoration: underline;
-}
-
-#divider {
-    height: 110px;
-    margin: 15px 20px 10px 20px;
-}
-
-.footer-bottom {
-    background-color: #494738;
-    text-align: center;
-    color: #eeeeee;
-    font-size: 0.8em;
-    padding: 8px;
-}
