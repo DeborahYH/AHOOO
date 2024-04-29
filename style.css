@@ -1,5 +1,4 @@
-/* SITE BASE */
-
+/* BASE */
 * {
     margin: 0px;
     padding: 0px;
@@ -99,7 +98,7 @@ footer {
 
 /* HOME */
 .intro-box {
-    background-image: url("/imagens/background-forest.jpg");
+    background-image: url("/imagens/bg-forest.jpg");
     background-color: rgb(44, 94, 71);
     background-size: cover;
     padding-top: 100px;
@@ -223,20 +222,10 @@ figcaption {
 
 
 /* CONTENT PAGES */
+/* ADJUST CLASSES */
 
-#top-horns {
-    display: flex;
-    background-size: cover;
-    background-image: linear-gradient(180deg, transparent, rgba(243, 242, 239, 1)), url("imagens/background-horns.jpg");
-    height: 70vh;
-}
-
-.intro-text {
-    background-color: rgba(255, 255, 255, 0.45);
-    border-radius: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 50px;
+.top-img {
+    width: 100%
 }
 
 .title-info {
@@ -254,7 +243,7 @@ section.content {
     font-family: 'Montserrat';
     font-size: 1.2em;
     max-width: 80%;
-    margin: 0px 0px 20px 170px;
+    margin: 0px 30px 20px 200px;
     text-align: justify;
 }
 
@@ -276,7 +265,7 @@ ol li {
 .references {
     font-family: 'Montserrat';
     max-width: 80%;
-    margin: 20px 0px 2px 170px;
+    margin: 0px 30px 0px 200px;
     padding-bottom: 20px;
     text-align: justify;
 }
