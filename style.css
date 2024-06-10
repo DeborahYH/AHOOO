@@ -37,12 +37,14 @@
 }
 
 main {
-    background-color: rgb(243, 242, 239);
+    width: 100vw;
+    background-color: white;
     margin: 0px;
     padding: 0px;
 }
 
 footer {
+    width: 100vw;
     background-color: #93a38b;
     font-family: 'Montserrat';
     text-align: left;
@@ -216,35 +218,39 @@ footer {
     font-size: 1.2em;
 }
 
-figcaption {
-    font-size: 0.8em;
-}
-
 
 /* CONTENT PAGES */
 /* ADJUST CLASSES */
 
 .top-img {
-    width: 100%
+    width: 100vw
 }
 
 .title-info {
     font-family: 'Montserrat';
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
-    margin: 20px;
+    line-height: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .title-info h1 {
     text-decoration: underline;
+    padding: 15px;
 }
 
 section.content {
+    text-indent: 50px;
     font-family: 'Montserrat';
     font-size: 1.2em;
-    max-width: 80%;
-    margin: 0px 30px 20px 200px;
+    max-width: 75%;
+    margin: 0px 30px 20px 230px;
     text-align: justify;
+}
+
+section.content h2 {
+    padding-bottom: 5px;
 }
 
 h1.title-content {
@@ -253,9 +259,21 @@ h1.title-content {
     text-align: center;
 }
 
-.row {
+.image {
+    flex: 50%;
+    text-align: center;
+}
+
+.caption {
     font-family: 'Montserrat';
-    font-size: 0.9em;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.caption a {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    padding: 5px;
 }
 
 ol li {
@@ -268,6 +286,13 @@ ol li {
     margin: 0px 30px 0px 200px;
     padding-bottom: 20px;
     text-align: justify;
+}
+
+.references li {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-left: 18px;
+
 }
 
 
