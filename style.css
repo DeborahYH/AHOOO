@@ -259,6 +259,12 @@ h1.title-content {
     text-align: center;
 }
 
+li {
+    margin-left: 70px;
+    text-indent: 0px;
+    text-align: justify;
+}
+
 .image {
     flex: 50%;
     text-align: center;
