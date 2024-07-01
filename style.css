@@ -218,6 +218,24 @@ footer {
     font-size: 1.2em;
 }
 
+/* PAGES UNDER CONSTRUCTION */
+
+.row-construction {
+    display: flex;
+}
+
+.column-construction {
+    flex: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 10pt;
+}
+
+.caption-construction {
+    text-align: center;
+    font-family: 'Urbanist';
+    font-size: 2.7em;
+}
 
 /* CONTENT PAGES */
 /* ADJUST CLASSES */
