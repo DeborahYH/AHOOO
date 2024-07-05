@@ -62,11 +62,19 @@ function setTile() {
         return;
     }
 
-    // If the cell hasn't been filled, updates the cell's text content. 
-    board[r][c] = currentPlayer;
-    this.innerText = currentPlayer;
+    // Create an <img> element based on the current player
+    let img = document.createElement("img");
+    if (currentPlayer == playerO) {
+        img.src = "/imagens/games/ttt-cow.png";
+    } else {
+        img.src = "/imagens/games/ttt-deer.png";
+    }
 
-    // Switches to the next player
+    // Update the cell's content with the image
+    this.innerHTML = "";
+    this.appendChild(img);
+
+    // Switch to the next player
     if (currentPlayer == playerO) {
         currentPlayer = playerX;
     } else {
