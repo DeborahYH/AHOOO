@@ -196,6 +196,7 @@ footer {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
+    font-weight: 800;
     color: rgb(3, 41, 22);
     border-style: solid;
     border-color: #3e4939;
@@ -316,5 +317,51 @@ ol li {
     font-size: 0.9em;
     line-height: 1.5em;
     margin-left: 18px;
-
 }
+
+/* GAMES PAGE */
+
+.container-games {
+    display: flex;
+    justify-content: center;
+}
+
+.card-game {
+    background-color: white;
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+    width: 400px;
+    height: 400px;
+    margin: 30px 50px 100px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.card-image {
+    height: 300px;
+}
+
+.card-image img {
+    width: 350px;
+    border-radius: 30px;
+    margin: 25px; 
+}
+
+.card-game a {
+    background-color: #c3d3bc;
+    padding: 8px;
+    margin: 20px 80px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(3, 41, 22);
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+}
+
