@@ -100,7 +100,7 @@ footer {
 
 /* HOME */
 .intro-box {
-    background-image: url("/imagens/bg-forest.jpg");
+    background-image: url("imagens/bg-forest.jpg");
     background-color: rgb(44, 94, 71);
     background-size: cover;
     padding-top: 100px;
@@ -170,11 +170,11 @@ footer {
 }
 
 .pic-1 {
-    background-image: url("/imagens/buffalo.png");
+    background-image: url("imagens/buffalo.png");
 }
 
 .pic-2 {
-    background-image: url("/imagens/deer.png");
+    background-image: url("imagens/deer.png");
 }
 
 .card h2 {
