@@ -222,14 +222,28 @@ footer {
 /* PAGES UNDER CONSTRUCTION */
 
 .row-construction {
-    display: flex;
+    display: flex;               /* Use flexbox to control layout */
+    flex-direction: column;      /* Stack elements vertically */
+    justify-content: center;     /* Center vertically (optional) */
+    align-items: center;         /* Center horizontally */
+    min-height: 100vh;           /* Take full height of the viewport */
+    text-align: center;          /* Center text in figcaption */
 }
 
+/* Flexbox for the image and caption */
 .column-construction {
-    flex: 50%;
-    padding: 20px;
-    text-align: center;
-    margin: 10pt;
+    display: flex;
+    flex-direction: column;      /* Stack image and caption */
+    align-items: center;         /* Center the image and caption */
+    max-width: 100%;             /* Keep container within page width */
+    padding: 10px;               /* Add some padding */
+}
+
+/* Image should be responsive */
+.column-construction img {
+    width: 100%;                 /* Image takes up the full width of its container */
+    max-width: 500px;            /* Ensure image doesn’t get too large */
+    height: auto;                /* Maintain aspect ratio */
 }
 
 .caption-construction {
@@ -242,7 +256,17 @@ footer {
 /* ADJUST CLASSES */
 
 .top-img {
-    width: 100vw
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.top-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .title-info {
