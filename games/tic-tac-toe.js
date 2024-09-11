@@ -65,9 +65,9 @@ function setTile() {
     // Create an <img> element based on the current player
     let img = document.createElement("img");
     if (currentPlayer == playerO) {
-        img.src = "./imagens/games/ttt-cow.png";
+        img.src = "../imagens/games/ttt-cow.png";
     } else {
-        img.src = "./imagens/games/ttt-deer.png";
+        img.src = "../imagens/games/ttt-deer.png";
     }
 
     // Update the cell's content with the image
